@@ -1,0 +1,56 @@
+.Total_Table>table {
+    border-collapse: collapse;
+    width: 390px;
+  }
+  
+  th, td {
+    height: 26px;
+    text-align: left;
+    border-bottom: 1px solid #3B3D50
+    ;
+    position: relative;
+  }
+  th, td {
+    border-bottom: 1px solid  #3B3D50;
+  }
+  
+  td{
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    
+  }
+
+  .Holding_Talbe{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+  }
+
+  .Holding_Talbe>table{
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    
+  }
+  .Holding_Talbe th{
+    text-align: center;
+  }
+
+  .Holding_Talbe_titles{
+    background-color: #272E3C;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .options{
+    position: relative;
+    right: 10px;
+  }
+  
+  /* .img{
+    box-shadow: #61E224 0px 0px 0.25em, #61E224 0px 0em 0.25em;
+  } */
